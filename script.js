@@ -1,5 +1,5 @@
-let xp = 0;
-let hero = "Jorge";
+let xp = 1000;
+let hero = "Rafael";
 let elo = "";
 
 //Versão Com switchCase
@@ -38,9 +38,9 @@ switch (true) {
     break;
 }
 
-// console.log(`Parabéns ${hero} você alcançou o ranking ${elo}!`);
+console.log(`Parabéns ${hero} você alcançou o ranking ${elo}!`);
 
-//Versão Com Arrays e Arrow Function
+//Versão Com Array
 
 const lvlRanking = [
   { nome: "Ferro", min: 1, max: 1000 },
